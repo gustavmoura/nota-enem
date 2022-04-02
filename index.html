@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calcule sua nota do Enem</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <table>
+          <caption>Calcule sua nota do Enem</caption>
+          <thead>
+            <tr>
+              <th>Área de Conhecimento</th>
+              <th>Nota</th>
+              <th>Peso</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><label for="">Ciências da Natureza</label></td>
+              <td><input type="text" name="cn" id="cn" /></td>
+              <td><input type="text" name="cnP" id="cnP" /></td>
+            </tr>
+            <tr>
+              <td><label for="">Ciências Humanas</label></td>
+              <td><input type="text" name="ch" id="ch" /></td>
+              <td><input type="text" name="chP" id="chP" /></td>
+            </tr>
+            <tr>
+              <td><label for="">Linguagens, Códigos e suas Tecnologias</label></td>
+              <td><input type="text" name="lc" id="lc" /></td>
+              <td><input type="text" name="lcP" id="lcP" /></td>
+            </tr>
+            <tr>
+              <td><label for="">Matemática e suas tecnologias</label></td>
+              <td><input type="text" name="mt" id="mt" /></td>
+              <td><input type="text" name="mtP" id="mtP" /></td>
+            </tr>
+            <tr>
+              <td><label for="">Redação</label></td>
+              <td><input type="text" name="rd" id="rd" /></td>
+              <td><input type="text" name="rdP" id="rdP" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="btns">
+          <input type="submit" value="Calcular" class="button vd" id="btnCalcular">
+          <input type="reset" value="Limpar" class="button vm" id="btnLimpar">
+        </div>
+      </form>
+      <p id="resultado"></p>
+    </main>
+  </body>
+</html>

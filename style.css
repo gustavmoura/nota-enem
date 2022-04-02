@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 40px 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+caption {
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+th {
+    padding: 10px 0;
+}
+
+td {
+    padding: 5px 0;
+}
+
+td > input {
+    border: 0;
+    height: 30px;
+    text-align: center;
+    width: 80px;
+    border-radius: 10px;
+    margin: 0 10px;
+    outline: 0;
+}
+
+td > input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 8px;
+    justify-content: center;
+}
+
+.button {
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.vd {
+    background-color: rgb(76, 202, 76);
+    color: #fff;
+    font-weight: 600;
+}
+
+.vm {
+    background-color: rgb(207, 69, 69);
+    color: #fff;
+    font-weight: 600;
+}
+
+#resultado {
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.8em;
+    font-weight: 600;
+
+}
